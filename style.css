@@ -27,6 +27,9 @@
     height: 300px;
     width:200px;
 }
+img.thclas{
+    padding-top: 20px;
+}
 
 
 
@@ -195,81 +198,130 @@ h1,h3{
      height: 100vh;
     max-height: 100vh;
     background-color: white;
-    
+
 
 }
 .pic{
      background-color:#e6ccff;
-    width: 50vh;
-    height: 50vh;
+    background-image: url('html.png');
+    width: 39vh;
+    height: 25vh;
     text-align: center;
     line-height: 250px;
     display: inline-block;
     margin-left: -10px;
+    border: 50px solid #e6ccff;
+    background-repeat: no-repeat;
+    background-position: center center;
+        margin-bottom: -10px;
+            margin-left: -10px;
+
+
+
 }
 .pic1{
      background-color: pink;
-    width: 50vh;
-    height: 50vh;
+        background-image: url('paper.png');
+    border: 50px solid pink;
+    width: 39vh;
+    height: 25vh;
     text-align: center;
     line-height: 250px;
     display: inline-block;
         margin-left: -10px;
-
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: -10px;
 }
 .pic2{
      background-color: gray;
-    width: 50vh;
-    height: 50vh;
+        border: 50px solid gray;
+        background-image: url('javascript.png');
+        background-repeat: no-repeat;
+    background-position: center center;
+    width: 39vh;
+    height: 25vh;
     text-align: center;
     line-height: 250px;
     display: inline-block;
         margin-left: -10px;
+        margin-bottom: -10px;
+
 
 }.pic3{
      background-color: antiquewhite;
-    width: 50vh;
-    height: 50vh;
+            background-image: url('php.png');
+        border: 50px solid antiquewhite;
+        background-repeat: no-repeat;
+    background-position: center center;
+    width: 39vh;
+    height: 25vh;
     text-align: center;
     line-height: 250px;
     display: inline-block;
         margin-left: -10px;
+        margin-bottom: -10px;
+
 
 }.pic4{
      background-color: #fff5cc;
-    width: 50vh;
-    height: 50vh;
+                background-image: url('android.png');
+        border: 50px solid #fff5cc;
+        background-repeat: no-repeat;
+    background-position: center center;
+    width: 39vh;
+    height: 25vh;
     text-align: center;
     line-height: 250px;
     display: inline-block;
         margin-left: -10px;
+            margin-bottom: -10px;
+
+
 
 }.pic5{
      background-color: skyblue;
-    width: 50vh;
-    height: 50vh;
+                background-image: url('sql.png');
+            background-repeat: no-repeat;
+        background-position: center center;
+        border: 50px solid skyblue;
+    width: 39vh;
+    height: 25vh;
     text-align: center;
     line-height: 250px;
     display: inline-block;
         margin-left: -10px;
+            margin-bottom: -10px;
+
 
 }.pic6{
      background-color: cadetblue;
-    width: 50vh;
-    height: 50vh;
+                    background-image: url('c-sharp.png');
+        border: 50px solid cadetblue;
+        background-repeat: no-repeat;
+    background-position: center center;
+    width: 39vh;
+    height: 25vh;
     text-align: center;
     line-height: 250px;
     display: inline-block;
         margin-left: -10px;
+        margin-bottom: -10px;
 
 }.pic7{
      background-color: #e6ffff;
-    width: 50vh;
-    height: 50vh;
+                    background-image: url('app.png');
+        border: 50px solid #e6ffff;
+        background-repeat: no-repeat;
+    background-position: center center;
+    width: 39vh;
+    height: 25vh;
     text-align: center;
     line-height: 250px;
     display: inline-block;
             margin-left: -10px;
+            margin-bottom: -10px;
+
 }
 button{
     color: white;
@@ -277,4 +329,22 @@ button{
     border-radius: 3px;
     padding: 10px;
     margin-top: 10px;
+}
+.ti{
+margin-top:-10px;color: white;
+            margin-left: -15px;
+
+
+
+}
+.pt{
+       width: 54vh;
+    height: 15vh;
+    text-align: center;
+    line-height: 100px;
+    display: inline-block;
+            margin-left: -9px;
+
+    
+            
 }
