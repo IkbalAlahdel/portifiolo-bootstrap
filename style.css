@@ -229,7 +229,6 @@ opacity: 90%;}
     margin: -15% 25% -10% 10%;
     border-radius: 5px;
     box-shadow: #555 inset;
-    opacity: 50%;
 }
 .thclas{
      height: 100vh;
@@ -252,6 +251,9 @@ margin-top: -1px;
     background-position: center center;
         margin-bottom: -10px;
             margin-left: -10px;
+            margin-right: -10px;
+
+            
 
 
 
@@ -264,10 +266,12 @@ margin-top: -1px;
     text-align: center;
     line-height: 250px;
     display: inline-block;
-        margin-left: -10px;
     background-repeat: no-repeat;
     background-position: center center;
     margin-bottom: -10px;
+    margin-left: -10px;
+
+
 }
 .pic2{
      background-color:#336d88;
@@ -275,12 +279,13 @@ margin-top: -1px;
         background-repeat: no-repeat;
     background-position: center center;
     width: 25vw;
-    height: 30vh;
+    height: 25vh;
     text-align: center;
     line-height: 250px;
     display: inline-block;
         margin-left: -10px;
         margin-bottom: -10px;
+        margin-right: 5px;
 
 
 }.pic3{
@@ -289,7 +294,7 @@ margin-top: -1px;
         background-repeat: no-repeat;
     background-position: center center;
     width: 25vw;
-    height: 30vh;
+    height: 25vh;
     text-align: center;
     line-height: 250px;
     display: inline-block;
@@ -303,12 +308,13 @@ margin-top: -1px;
         background-repeat: no-repeat;
     background-position: center center;
     width: 25vw;
-    height: 30vh;
+    height: 25vh;
     text-align: center;
     line-height: 250px;
     display: inline-block;
         margin-left: -10px;
             margin-bottom: -10px;
+            margin-right: -10px;
 
 
 
@@ -318,7 +324,7 @@ margin-top: -1px;
             background-repeat: no-repeat;
         background-position: center center;
     width:25vw;
-    height: 30vh;
+    height: 25vh;
     text-align: center;
     line-height: 250px;
     display: inline-block;
@@ -332,7 +338,7 @@ margin-top: -1px;
         background-repeat: no-repeat;
     background-position: center center;
     width: 25vw;
-    height: 30vh;
+    height: 25vh;
     text-align: center;
     line-height: 250px;
     display: inline-block;
@@ -345,7 +351,7 @@ margin-top: -1px;
         background-repeat: no-repeat;
     background-position: center center;
     width: 25vw;
-    height: 30vh;
+    height: 25vh;
     text-align: center;
     line-height: 250px;
     display: inline-block;
@@ -431,4 +437,51 @@ font-family: 'Open Sans', sans-serif;
     font-family: 'Fondamento', cursive;
 
 }
+.flip-card {
+    background-color: transparent;
+    width: 25vw;
+    height: 25vh;
+    perspective: 1000px;
+display: inline-block;
+margin-left: -10px;
+margin-bottom: -10px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 25vw;
+    height: 25vh;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 
+  }
+  
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    width: 25vw;
+    height: 25vh;
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 25vw;
+    height: 25vh;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    width: 25vw;
+    height: 25vh;    color: black;
+  }
+  
+  .flip-card-back {
+    width: 25vw;
+    height: 25vh;
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
